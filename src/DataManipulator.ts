@@ -4,7 +4,7 @@ export interface Row {
   price_abc: number,
   price_def: number,
   ratio: number,
-  timestap: Date,
+  timestamp: Date,
   upper_bound: number,
   lower_bound: number,
   trigger_alert: number| undefined,
