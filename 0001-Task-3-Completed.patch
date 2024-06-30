@@ -1,0 +1,25 @@
+From 2ede3d066544629a7bd480d39f4a79bd1ca89d78 Mon Sep 17 00:00:00 2001
+From: Kunal0-0 <100046846+Kunal0-0@users.noreply.github.com>
+Date: Mon, 1 Jul 2024 00:05:53 +0530
+Subject: [PATCH] Task-3 Completed
+
+---
+ src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 94aa2ea..be75bdc 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -57,7 +57,7 @@ class Graph extends Component<IProps, {}> {
+     if (this.table) {
+       this.table.update([
+         DataManipulator.generateRow(this.props.data),
+-      ] as unknown as TableData);
++      ]);
+     }
+   }
+ }
+-- 
+2.43.0.windows.1
+
